@@ -7,7 +7,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 #use double
 
 # comment the following out for double precision support
-add_definitions( -DUSE_DOUBLE )
+#add_definitions( -DUSE_DOUBLE )
 
 # find SDL2
 find_package(SDL2 REQUIRED)
